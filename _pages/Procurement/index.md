@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 ## Doing Business with FRTIB
-
+<br>
 {% capture body -%}
 Welcome to FRTIB. Thanks for your interest in doing business with us. FRTIB purchases products and services through Contracts and Agreements with private-sector entities and other Federal Agencies.
 
@@ -39,7 +39,7 @@ Most federal government solicitations that must be publicized are posted on Fede
 {% endcapture -%}
 {% include desc-box
       card_img="hero/contracts_final.jpg"
-      altText="Illustration of two pairs of hands shaking hands while two people sign contract"
+      altText="Contract opportunities with FRTIB"
       card_body=body card_foot=false -%}
 
 <!-- CONTENT END -->
