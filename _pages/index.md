@@ -23,7 +23,7 @@ return_to_top: false
       </h1>
 
         <p>
-        FRTIB’s mission is to help current and former civilian employees and members of the uniformed services prepare for their retirement years via the TSP.</p>
+        FRTIB’s mission is to help current and former civilian employees and members of the uniformed services prepare for their retirement years via the TSP. </p>
         <p>
         Download the  FY22-26 Strategic Plan to see our plans for the next five years.
         </p>
@@ -63,21 +63,25 @@ return_to_top: false
       </div>
       <div class="tablet:grid-col-8 usa-prose">
         <section class="bar-graph bar-graph-horizontal bar-graph-one">
+         <div class="left-border-thick-line">
           <div class="bar-one">
-          <span class="descr">Extremely Satisfied/Satisfied (89%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="89%"></div>
+            <span class="descr">Extremely Satisfied/Satisfied (89%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="89%"></div>
           </div>
+          <br clear="all">
           <div class="bar-two">
-          <span class="descr">Neither Satisfied nor Unsatisfied (9%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="9%"></div>
+            <span class="descr">Neither Satisfied nor Unsatisfied (9%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="9%"></div>
           </div>
+          <br clear="all">
           <div class="bar-three">
-          <span class="descr">Dissatisfied/Extremely Dissatisfied (2%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="0%"></div>
+            <span class="descr">Dissatisfied/Extremely Dissatisfied (2%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="0%"></div>
           </div>
+         </div>
         </section>
       </div>
     </div>
@@ -90,7 +94,7 @@ return_to_top: false
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
       <div class="usa-media-block tablet:grid-col">
-        <a href="https://www.tsp.gov">{% asset TSPLogo_whitecircle.png alt="TSP Logo" style="padding: 0 1em" %}</a>
+        <a href="https://www.tsp.gov">{% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Learn about TSP
@@ -101,7 +105,7 @@ return_to_top: false
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-      <a href="https://www.tsp.gov">{% asset Lfunds.gif height="150px" alt="Lfunds pie chart" style="padding: 0 1em" %}</a>
+      <a href="https://www.tsp.gov">{% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Lifecycle funds for TSP Participants
